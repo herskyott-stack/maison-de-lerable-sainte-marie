@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maison de l&#x27;Érable — Sainte-Marie, QC | Bar laitier, crème molle à l&#x27;érable, produits d&#x27;érable</title>
+<meta name="description" content="Maison de l&#x27;Érable, 1346 boul. Vachon S, Sainte-Marie QC : bar laitier, casse-croûte, crème molle à l&#x27;érable avec coulis maison, beurre d&#x27;érable et vente en gros. (418) 386-1677.">
+<style>
+:root{--acc:#9e2b25;--acctx:#fff;--ink:#38231d;--bg:#fdf6ea}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,serif;background:var(--bg);color:var(--ink);line-height:1.6}
+header{text-align:center;padding:2.4rem 1rem .8rem}
+h1{font-size:2.7rem;margin:.2rem 0;color:#9e2b25}
+.leaf{font-size:2rem;color:#9e2b25}
+.wrap{max-width:900px;margin:0 auto;padding:0 1rem 2rem}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}@media(max-width:640px){.cols{grid-template-columns:1fr}}
+.panel{background:#fff;border-top:5px solid #9e2b25;border-radius:0 0 10px 10px;padding:1.3rem;box-shadow:0 2px 8px #9e2b2522}
+.panel h2{margin-top:0}
+.cta{display:inline-block;background:#9e2b25;color:#fff;padding:.8rem 1.4rem;border-radius:8px;text-decoration:none;font-weight:700}
+.foot{text-align:center;padding:1.2rem;font-size:.85rem;opacity:.75}
+.cform{margin:0 auto}
+
+.cform{display:grid;gap:.7rem;max-width:520px}
+.cform label{display:grid;gap:.3rem;font-size:.92rem;font-weight:600}
+.cform input,.cform select,.cform textarea{padding:.6rem .7rem;border:1px solid #0003;border-radius:8px;font:inherit;background:#fff;color:#111}
+.cform button{padding:.75rem 1rem;border:0;border-radius:8px;font:inherit;font-weight:700;cursor:pointer;background:var(--acc);color:var(--acctx,#fff)}
+.fnote{font-size:.85rem;opacity:.8}
+.fdone{font-weight:700}
+a{color:var(--acc)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="leaf">🍁</div>
+  <h1>Maison de l'Érable</h1>
+  <p>Bar laitier et casse-croûte à Sainte-Marie, en Beauce — et le goût de l'érable, à l'année.</p>
+  <p><a class="cta" href="tel:+14183861677">Appeler le (418) 386-1677</a></p>
+  <p>Noté 4,9★ sur 33 avis Google</p>
+</header>
+<div class="wrap">
+  <div class="cols">
+    <section class="panel">
+      <h2>La vedette : la molle à l'érable</h2>
+      <p>Notre crème glacée molle à l'érable, nappée de notre propre coulis d'érable — celle dont tout le monde parle en Beauce. Bar laitier complet et casse-croûte pour les fringales de route.</p>
+    </section>
+    <section class="panel">
+      <h2>Nos produits d'érable</h2>
+      <ul>
+        <li><strong>Coulis d'érable</strong></li>
+        <li><strong>Beurre d'érable</strong></li>
+        <li>Produits de l'érable en boutique</li>
+        <li><strong>Vente en gros</strong> pour commerces et restaurants</li>
+      </ul>
+    </section>
+  </div>
+  <section class="panel" style="margin-top:1.4rem">
+    <h2>Heures &amp; adresse</h2>
+    <p>Lundi – jeudi : 10 h 30 – 21 h · Vendredi : 10 h 30 – 22 h · Samedi : 8 h – 22 h · Dimanche : 8 h – 21 h<br>
+    1346, boul. Vachon S, Sainte-Marie, QC G6E 2S5 · <a href="https://www.facebook.com/Maison-de-l%C3%89rable-1395192097429639">Maison de l'Érable sur Facebook</a></p>
+    <p><em>Entreprise saisonnière — vérifiez nos heures sur Facebook en fin de saison.</em></p>
+  </section>
+  <section class="panel" style="margin-top:1.4rem">
+    <h2>Commandes &amp; demandes</h2>
+    
+      <form class="cform" onsubmit="event.preventDefault();var r='MDE-'+Math.floor(1000+Math.random()*9000);document.getElementById('MDEref').textContent=r;document.getElementById('MDEdone').style.display='block';this.querySelector('button').disabled=true;">
+        <label>Votre nom<input type="text" required autocomplete="name"></label>
+        <label>Téléphone<input type="tel" required autocomplete="tel"></label>
+        <label>Service<select>
+          <option>Commande à emporter</option>
+          <option>Produits d&#x27;érable — achat en boutique</option>
+          <option>Vente en gros</option>
+          <option>Question générale</option>
+        </select></label>
+        <label>Détails (facultatif)<textarea rows="3"></textarea></label>
+        <button type="submit">Envoyer la demande</button>
+        <p class="fnote">Formulaire de concept — il n'envoie et n'enregistre rien pour le moment. Pour nous joindre aujourd'hui, appelez le (418) 386-1677.</p>
+        <p class="fdone" id="MDEdone" style="display:none">Référence: <strong id="MDEref"></strong> — concept seulement; appelez pour confirmer.</p>
+      </form>
+  </section>
+</div>
+<footer class="foot"><p>Concept website designed for Maison de l'Érable · Built by Jake Hersky — Ottawa web designer · hersky.info</p></footer>
+
+</body>
+</html>
